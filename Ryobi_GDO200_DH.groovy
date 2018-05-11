@@ -22,15 +22,15 @@ preferences {
 metadata {
 	definition (name: "Ryobi Garage Door", namespace: "madj42", author: "Justin Dybedahl") {
 		capability "Actuator"
-        	capability "Door Control"
-        	capability "Garage Door Control"
+		capability "Door Control"
+		capability "Garage Door Control"
 		capability "Switch"
 		capability "Sensor"
-            	capability "Polling"
+		capability "Polling"
 		capability "Momentary"
 		capability "Relay Switch"
-            	capability "Refresh"
-            	capability "battery"
+		capability "Refresh"
+		capability "battery"
 	}
 
     attribute "switch", "string"
